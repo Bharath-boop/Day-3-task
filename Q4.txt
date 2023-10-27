@@ -1,0 +1,186 @@
+Task1:-
+^^^^^^^
+    1.Declare four variables without assigning values and print them in console:-
+
+---------------------------------------------------------------------------------------------------------------------
+    2.How to get value of the variable myvar as output:-
+        var myvar=1;
+        console.log(myvar);
+
+---------------------------------------------------------------------------------------------------------------------
+    3.Declare variables to store your first name, last name,
+      marital status, country and age in multiple lines:-
+         var firstName="Bharath";
+         var lastName="kumar";
+         var maritalStatus="unmarried";
+         var country ="india";
+         var age=23;
+
+---------------------------------------------------------------------------------------------------------------------
+    4. Declare variables to store your first name, last name,
+       marital status, country and age in a single line:-
+         var myDetails={firstName:"Bharath",lastName:"kumar",maritalStatus:"unmarried",country:"india",age:23};
+   
+---------------------------------------------------------------------------------------------------------------------
+
+    5. Declare variables and assign string, boolean, undefined and null data types:-
+        var string="kumar";
+        var boolean=ture;
+        var undefined;
+        var number=null;
+
+---------------------------------------------------------------------------------------------------------------------
+    6. Convert the string to integer:-
+        1.parseInt():-
+           var string="123";
+           console.log(parseInt(string));
+        2.Number():-
+            var string="245";
+            console.log(Number(string));
+        3.Pluse Sign(+):-
+            var string="357";
+            console.log(+string); 
+---------------------------------------------------------------------------------------------------------------------
+    7. Write 6 statement which provide truthy & falsey values:-
+
+---------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+
+Task 2:-
+^^^^^^^^
+    1.Square of a number:-
+        var number=5;
+        console.log(number*number);
+    ````````````````````````````````````````````````````````````````````````````
+    2.Swapping 2 numbers:-
+       var number=5;
+        var number1=10;
+        var temp;
+        temp=number;
+        number=number1;
+        number1=temp;
+        console.log(number);
+        console.log(number1);
+    ````````````````````````````````````````````````````````````````````````````
+    3.Addition of 3 numbers:-
+        var num1=5;
+        var num2=10;
+        var num3=15;
+        console.log(num1+num2+num3);
+    ````````````````````````````````````````````````````````````````````````````
+    4.Celsius to Fahrenheit conversion:-
+        var temperature=12.0;
+        console.log((temperature*9/5)+32.0);
+    ````````````````````````````````````````````````````````````````````````````
+    5.Meter to miles:-
+        var meter=5;
+        console.log(meter+" is "+meter*0.00062137+" mi");
+    ````````````````````````````````````````````````````````````````````````````
+    6.Pounds to kg:-
+        var pound=5;
+        console.log(pound+" is "+meter*0.45359237+" kg");
+    ````````````````````````````````````````````````````````````````````````````
+    7.Calculate Batting Average:-
+        var match=[23,45,67,56,99,100];
+        var totalScore=0;
+        for(var i=0;i<match.length;i++){
+        totalScore=totalScore+match[i];
+        }
+        var avg=totalScore/match.length;
+        console.log(avg);
+    ````````````````````````````````````````````````````````````````````````````
+    8.Calculate five test scores and print their average:-
+        var match=[23,4,45,10,5];
+        var totalScore=0;
+        for(var i=0;i<match.length;i++){
+        totalScore=totalScore+match[i];
+        }
+        var avg=totalScore/match.length;
+        console.log(avg);
+    ````````````````````````````````````````````````````````````````````````````
+    9.Power of any number x ^ y:-
+        var x=3;
+        var y=3;
+        var sum=1;
+        for(var i=1;i<=b;i++){
+        sum=sum*a;
+        }
+        console.log(sum);
+    ````````````````````````````````````````````````````````````````````````````
+    10.Calculate Simple Interest:-
+        var principal=5000;
+        var interestRate=5/100;
+        var years=5;
+        console.log(principal*(1+interestRate*years));
+    ````````````````````````````````````````````````````````````````````````````
+    11.Calculate area of an equilateral triangle:-
+        var area=4;
+        console.log(1.73*(area*area)/4);
+    ````````````````````````````````````````````````````````````````````````````
+    12.Area Of Isosceles Triangle:-
+        var base=5;
+        var height=10;
+        console.log(1/2*base*height);
+    ````````````````````````````````````````````````````````````````````````````
+    13.Volume Of Sphere:-
+        var redius=3;
+        var r1=redius*redius*redius;
+        console.log(4/3*3.14*r1);
+    ````````````````````````````````````````````````````````````````````````````
+    14.Volume Of Prism
+        var base=4
+        var height=4;
+        console.log(base*height);
+    ````````````````````````````````````````````````````````````````````````````
+    15.Find area of a triangle:-
+        var base=5;
+        var height=10;
+        console.log(1/2*base*height);
+    ````````````````````````````````````````````````````````````````````````````
+    16.Give the Actual cost and Sold cost, Calculate Discount Of Product
+        var actualPrice=200;
+        var salePrice=150;
+        console.log(actualPrice-salePrice);
+    ````````````````````````````````````````````````````````````````````````````
+    17.Given their radius of a circle and find its diameter, circumference and area:-
+  
+    ````````````````````````````````````````````````````````````````````````````
+    18.Given two numbers and perform all arithmetic operations:-
+        var a=3;
+        var b=5;
+        console.log(a+b);
+        console.log(a-b);
+        console.log(a*b);
+        console.log(a/b);
+        console.log(a%b);
+    ````````````````````````````````````````````````````````````````````````````
+    19.Display the asterisk pattern as shown below(No loop needed):-
+        *****
+        *****
+        *****
+        *****
+        *****
+        console.log("*****");
+        console.log("*****");
+        console.log("*****");
+        console.log("*****");
+        console.log("*****");
+    ````````````````````````````````````````````````````````````````````````````
+    20.Calculate electricity bill?
+        For example, a consumer consumes 100 watts per hour daily for one month.
+        Calculate the total energy bill of that consumer if per unit rate is 10?:-
+        var watts=100;
+        var dayWatts=12*watts;
+        var monthWatts=30*dayWatts;
+        var unit=monthWatts/1000;
+        var price=unit*10;
+        console.log(price);
+    ````````````````````````````````````````````````````````````````````````````  
+    21.Program To Calculate CGPA:-
+        var gradePoints=[4.5,7.8,8.8,9.0,10.0]
+        var totalGradePoints=0;
+        for(var i=0;i<gradePoints.length;i++){
+            totalGradePoints=totalGradePoints+gradePoints[i];
+        }
+        console.log(totalGradePoints/gradePoints.length);
+   ````````````````````````````````````````````````````````````````````````````
