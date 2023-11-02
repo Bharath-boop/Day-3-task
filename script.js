@@ -1,10 +1,9 @@
 //Q1.how to compare two json have the same properties without order?
 let obj1={name:"person1",age:5};
 let obj2={age:5,name:"person1"};
-if(obj1==obj2)
-{
-    console.log("true")
-}
+var a=JSON.stringify(obj1);
+var b=JSON.stringify(obj2);
+console.log(a==b);
 //-------------------------------------------------------------------------------------------------------------------------------------------
 //Q2.API URL and display all the county flags in the console:-
 var request=new XMLHttpRequest;
